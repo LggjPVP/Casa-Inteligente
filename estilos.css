@@ -198,11 +198,15 @@ body{
 }
 .card-back {
   transform: rotateY(180deg);
-  justify-content: flex-start;
+  justify-content:flex-start;
   overflow: hidden;
   word-wrap: break-word;
   line-height: 20px;
   font-size: 15px;
+  position: absolute;
+  height: auto;
+  top: 28%;
+  left: 1%;
 }
 .card-front{
     word-wrap: break-word;
