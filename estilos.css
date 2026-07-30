@@ -192,11 +192,11 @@ body{
     transform: rotateY(180deg);
 }
 .card-front, .card-back {
-  backface-visibility:hidden;
   text-align: left;
   font-size: 2vw;
 }
 .card-back {
+  backface-visibility:hidden;
   transform: rotateY(180deg);
   justify-content:flex-start;
   overflow: hidden;
@@ -209,11 +209,14 @@ body{
   left: 1%;
 }
 .card-front{
+    backface-visibility: hidden;
     word-wrap: break-word;
     overflow: hidden;
     line-height: 20px;
     font-size: 15px;
+    transform: rotateY(0deg);
 }
+
 footer{
     padding: 5px;
     background-color: #000000;
