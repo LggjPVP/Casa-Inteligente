@@ -192,7 +192,7 @@ body{
     transform: rotateY(180deg);
 }
 .card-front, .card-back {
-  backface-visibility: hidden;
+  backface-visibility:hidden;
   text-align: left;
   font-size: 2vw;
 }
