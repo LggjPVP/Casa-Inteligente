@@ -19,20 +19,38 @@
     flex-wrap: wrap;
 }
 .cabecalho{
-    padding: 5px;
-    background-color: rgba(24, 28, 78, 0.822);
-    border-radius: 10px;
-    font-size: 2vw;
+    list-style-type: none;
+    padding: 20px;
+    background-color: rgb(25, 3, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.mudar{
+.titulo{
     color: rgb(248, 245, 245);
     font-weight: bold;
     font-size: larger;
+    display: flex;
+    justify-content:start; 
+    align-items: center;    
 }
-.cabecalho p{
-    color: #8f759b;
-    text-decoration: line-through;
+
+button{
+    justify-content: right;
+    margin-right: 80px;
+    background-color:rgb(84, 0, 117);
+    cursor: pointer;
 }
+.codigo-casa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  color:white;
+  font-size: 18px;
+}
+
 body{
     background-image: url('img/library-background.jpg');
     font-family: "Sofia", sans-serif;
@@ -237,13 +255,15 @@ footer{
 .mark a:hover{
     color:deepskyblue;
 }
-nav a:hover{
-    color: white
-}
 
 .voltar{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
+}
+
+nav a:visited{
+    color: white;
+    text-decoration: none;
 }
