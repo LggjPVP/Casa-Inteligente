@@ -52,7 +52,7 @@ button{
 
 body{
     background-image: url('img/library-background.jpg');
-    font-family: "Sofia", sans-serif;
+    font-family: "Courier New", Courier, monospace;
     font-style: var(--background-color)white;
 }
 .design-conteudo{
