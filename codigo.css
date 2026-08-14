@@ -1,7 +1,4 @@
 nav a:visited{
-    color: white;}
-
-.Fechadura a:visited{
     color: white;
 }
 
@@ -13,10 +10,16 @@ nav a:visited{
 }
 
 body{
-    background-image: url(https://i.pinimg.com/1200x/9b/94/2e/9b942ee4533dda9ac6eb23f3de4390c0.jpg);
-    font-family: "Sofia", sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvLqzXJDHuH7tWTwDFrHclxJSb1MOkZuUFt7BX4ZFRggvAOzro8ilX48V&s=10);
+    font-family: "Courier New", Courier, monospace;;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.codigo-casa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
