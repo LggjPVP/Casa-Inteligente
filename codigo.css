@@ -17,9 +17,35 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
-
-.codigo-casa{
+#container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 20px;
     align-items: center;
+}
+
+button{
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border: 2px solid #929292;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    box-shadow:
+    0 0 10px rgb(168, 124, 238),
+    0 0 20px rgb(168, 124, 238),
+    0 0 40px rgb(168, 124, 238);
+}
+
+.foto-casa{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
