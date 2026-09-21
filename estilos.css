@@ -121,6 +121,11 @@ body {
     padding: 15px;
 }
 
+#container > :nth-child(3) {
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
 .cartao.flipped .cartao2,
 .cartao.flipped .cartao1,
 .cartao.flipped .cartao3{
