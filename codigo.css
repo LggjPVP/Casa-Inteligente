@@ -1,17 +1,14 @@
-nav a:visited{
-    color: white;
-}
-
 .voltar{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
+    color: white;
 }
 
 body{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZvLqzXJDHuH7tWTwDFrHclxJSb1MOkZuUFt7BX4ZFRggvAOzro8ilX48V&s=10);
-    font-family: "Courier New", Courier, monospace;;
+    font-family: "Courier New", Courier, monospace;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
