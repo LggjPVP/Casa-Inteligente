@@ -1,9 +1,6 @@
-.voltar{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    align-items: center;
-    color: white;
+.voltar a {
+    color: white !important;
+    text-decoration: none;
 }
 
 body{
@@ -38,11 +35,4 @@ button:hover{
     0 0 10px rgb(168, 124, 238),
     0 0 20px rgb(168, 124, 238),
     0 0 40px rgb(168, 124, 238);
-}
-
-.foto-casa{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
 }
