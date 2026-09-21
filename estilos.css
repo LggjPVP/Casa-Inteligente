@@ -51,11 +51,11 @@ button{
   font-size: 18px;
 }
 
-body{
+body {
     background-image: url('img/library-background.jpg');
     font-family: "Courier New", Courier, monospace;
-    font-style: var(--background-color)white;
 }
+
 .design-conteudo{
     padding: 5px;
     border-radius: 5px;
@@ -77,6 +77,10 @@ body{
     transition: transform 0.8s;
     position: relative;
     cursor: pointer;
+    width: 100%;
+    max-width: 350px;
+    min-height: 250px;
+    padding: 15px;
 }
 .cartao2{
     color: rgb(245, 239, 239);
@@ -92,6 +96,10 @@ body{
     transition: transform 0.8s;
     position: relative;
     cursor: pointer;
+    width: 100%;
+    max-width: 350px;
+    min-height: 250px;
+    padding: 15px;
 }
 .cartao3{
     color: rgb(253, 252, 252);
@@ -107,6 +115,10 @@ body{
     transition: transform 0.8s;
     position: relative;
     cursor: pointer;
+    width: 100%;
+    max-width: 350px;
+    min-height: 250px;
+    padding: 15px;
 }
 
 .cartao.flipped .cartao2,
@@ -116,7 +128,6 @@ body{
 }
 .card-front, .card-back {
   text-align: left;
-  font-size: 2vw;
 }
 .card-back {
   backface-visibility:hidden;
@@ -127,6 +138,7 @@ body{
   line-height: 20px;
   font-size: 15px;
   position: absolute;
+  text-align: center;
   height: auto;
   top: 28%;
   left: 1%;
