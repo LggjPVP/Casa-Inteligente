@@ -39,3 +39,11 @@ button:hover{
     0 0 20px rgb(168, 124, 238),
     0 0 40px rgb(168, 124, 238);
 }
+
+footer{
+    color: white !important;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
