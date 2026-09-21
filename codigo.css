@@ -1,6 +1,9 @@
 .voltar a {
     color: white !important;
     text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 body{
